@@ -1,0 +1,314 @@
+
+.banner {
+	background-color: #3c4955;
+	background-image: url(../images/computer.png) ;
+	height: 648px;
+	max-width: 1920px;
+	margin: auto;
+}
+
+.top {
+	margin: 100px 0 180px 0;
+	text-align: center;
+}
+
+ul {list-style-type: none;}
+
+li {
+	display: inline-block;
+	font-family: "Lato Bold", serif;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.brand {
+	display: inline-block;
+
+	margin-left: 100px;
+	vertical-align: middle;
+}
+
+.site-nav {
+	display: inline-block;
+	margin-left: 350px;
+}
+
+.site-nav ul li + li:before {
+	content: "/";
+	margin: 0 50px ;
+	opacity: .5;
+	}
+
+	.site-nav a:hover {
+		color: blue;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+		transition: 0.5s;
+		font-family: "Lato Bold", serif;
+		font-size: 16px;
+	}
+
+	.top h1 {
+		font-family: "BigJohn", serif;
+		font-size: 46px;
+		color: white;
+	}
+
+	.top h2 {
+		font-family: 'SlimJoe', serif;
+		font-size: 30px;
+		font-weight: 200;
+		color: white;
+	}
+
+	.top button {
+		font-family: "Lato Bold", serif;
+		font-size: 14px;
+		font-weight: 700;
+		color: #48bf72;
+		border: 1px solid #48bf72;
+		background: none;
+		margin: 50px auto 100px auto;
+		width: 135px;
+		height: 40px;
+	}
+
+	button:hover {
+		color: white;
+		font-size: 20px;
+		transition: 0.2s;
+		cursor: pointer;
+	}
+
+	.nav-div {
+		font-family: "Lato Bold", serif;
+		font-weight: 700;
+		font-size: 16px;
+		height: 135px;
+		text-align: center;
+	}
+
+	.nav-div li {
+		color: #3c4955;
+		background: #eaeaea;
+		width: 110px;
+		height: 35px;
+		text-align: center;
+		padding-top: 7px;
+		margin: 20px;
+	}
+
+	.nav-div li:hover {
+		color: white;
+		background: #48bf72;
+		cursor: pointer;
+		transition: 0.2s;
+	}
+
+	.nav-div ul {margin-top: 50px;}
+
+	.wrapper-img {
+		position: relative;
+		margin: 0 auto;
+		width: 1250px;
+		height: 830px;
+	}
+
+	.wrapper-img div {position: absolute;}
+
+	.page-img1 {
+		width: 450px;
+		height: 300px;
+		top: 0;
+		left: 0;
+	}
+
+	.page-img2 {
+		width: 650px;
+		height: 430px;
+		top: 0;
+		right: 0;
+	}
+
+	.page-img3 {
+		text-align: center;
+		padding-top: 200px;
+		background-image: url(../images/appopasity.png) ;
+		background-repeat: no-repeat;
+		color: #FFF;
+		width: 450px;
+		height: 485px;
+		bottom: 0;
+		left: 0;
+	}
+
+	.page-img3 h2 {
+		font-family: "Lato Bold";
+		font-size: 30px;
+		font-weight: bold;
+		}
+
+	.page-img3 h5 {
+		font-family: "Lato Bold";
+		font-size: 16px;
+		font-weight: bold;}
+
+	.page-img4 {
+		width: 650px;
+		height: 350px;
+		bottom: 0;
+		right: 0;
+	}
+
+	.wrapper-img img {width: 100%;}
+
+	.wrapper-pfolio {
+		background-color: #3c4955;
+		background-image: url(../images/men-computer1.png) ;
+		background-position: -250px;
+		background-repeat: no-repeat;
+		height: 500px;
+		max-width: 1920px;
+		margin-top: 95px;
+	}
+
+	.content-main {
+		max-width: 50%;
+		margin-left: 55%;
+		font-family: "lato bold", serif;
+		color: #FFF;
+		padding-top: 90px;
+		padding-right: 250px;
+	}
+
+	.content-main h2 {
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.content-main h4 {
+		font-weight: normal;
+		font-size: 22px;
+	}
+
+
+	.content-main button {
+		width: 150px;
+		height: 40px;
+		font-family: lato, serif;
+		font-weight: 700;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #3c4955;
+		background: none;
+		border: 2px solid #3c4955;
+		margin: 40px 0 90px;
+	}
+
+	.content-main button:hover {color: #FFF;}
+
+
+
+	.forma {
+		max-width: 700px;
+		margin: auto;
+	}
+
+	.forma h2{
+		font-family: "BigJohn", serif;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #48bf72;
+		margin: 53px auto 100px auto;
+	}
+
+	.forma button {
+		font-family: "Lato Bold", serif;
+		font-size: 14px;
+		font-weight: 700;
+		color: white;
+		border: 1px solid #48bf72;
+		background: #48bf72;
+		margin: 50px auto 100px auto;
+		width: 100%;
+		height: 52px;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+	}
+
+	.forma button:hover {
+		color: #48bf72;
+		border: 5px solid #48bf72;
+		background: #fff;
+		transition: 0.2s;
+		cursor: pointer;
+	}
+
+	.forma div {
+		display: inline-block;
+		position: relative;
+		border: 2px solid #3c4955;
+		height: 52px;
+		width: 336px;
+	}
+
+	.forma div:last-of-type {
+		width: 700px;
+		height: 230px;
+	}
+
+	.forma .forma-centr {
+		margin-left: 23px;
+	}
+
+	.forma input {
+		height: 47px;
+		width: 270px;
+		border: none;
+		outline: none;
+		position: absolute;
+	}
+
+	.forma textarea {
+		height: 200px;
+		width: 640px;
+		border: none;
+		outline: none;
+		position: absolute;
+		top: 16px;
+	}
+
+	.page-footer {
+		width: 1920px;
+		height: 200px;
+		background: #3c4955;
+	}
+
+	.page-footer address {
+		display: inline-block;
+		font-family: "Lato Bold", serif;
+		font-size: 16px;
+		margin-left: 130px;
+		margin-top: 100px;
+	}
+
+	.page-footer .socseti {
+		display: inline-block;
+		margin-left: 400px;
+	}
+
+	.page-footer img {
+		margin-left: 40px;
+	}
+
+	.page-footer img:hover {
+		zoom: 1.1;
+		margin-left: 32px;
+		cursor: pointer;
+	}
